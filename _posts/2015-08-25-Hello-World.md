@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Hello world
+title: Hello World
 published: true
 ---
+
 
 
 Strange blog is up and running!

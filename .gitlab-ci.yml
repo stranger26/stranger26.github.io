@@ -1,0 +1,10 @@
+image: ruby:2.3
+pages:
+  script:
+  - gem install jekyll jekyll-sitemap redcarpet
+  - jekyll build -d public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
